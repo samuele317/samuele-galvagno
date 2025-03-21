@@ -1,0 +1,252 @@
+body{
+    background-color: midnightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin : 0;
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    max-width: 1100px;
+    margin: 128px;
+}
+
+div.logo{
+    color: #FFF;
+font-family: "Josefin Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 64px;
+}
+
+div.titolo{
+background-color: white;
+}
+
+div.titolo h1{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Josefin Sans";
+    color: midnightblue;
+    padding: 40px;
+    text-align: center;
+}
+
+div.sottotitolo{
+    margin: 64px;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+}
+
+div.argomenti{
+    display: flex;
+    gap: 200px;
+    color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.6px;
+}
+
+div.argomenti img{
+    width: 500px;
+    position-area: right;
+}
+
+section.primaparte{
+    padding: 128px;
+}
+
+div.paragrafo1 h2{
+    color: #FFF;
+font-family: "Josefin Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.32px;
+margin: 64px;
+}
+
+div.testo1{
+    display: flex;
+    gap: 385px;
+}
+
+div.testo1 p{
+    color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3px;
+    max-width: 700px;
+    margin: 64px;
+}
+
+div.testo1 img{
+    width: 500px;
+    height: 500px;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+    float: right;
+}
+
+section.secondaparte{
+    padding: 128px;
+}
+
+div.paragrafo2 h2{
+    color: #FFF;
+font-family: "Josefin Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.32px;
+margin: 64px;
+}
+
+div.testo2{
+    display: flex;
+    gap: 380px;
+}
+
+div.testo2 p{
+    color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3px;
+    max-width: 700px;
+    margin: 64px;
+}
+
+div.testo2 img{
+    width: 400px;
+    height: 400px;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+    float: right;
+}
+
+section.terzaparte{
+    padding: 128px;
+}
+
+div.paragrafo3 h2{
+    color: #FFF;
+font-family: "Josefin Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.32px;
+margin: 64px;
+}
+
+div.testo3{
+    display: flex;
+    gap: 370px;
+}
+
+div.testo3 p{
+    color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3px;
+    max-width: 700px;
+    margin: 64px;
+}
+
+div.testo3 img{
+    width: 500px;
+    height: 500px;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+    float: right;
+}
+
+section.conclusioni{
+    padding: 256px;
+}   
+
+div.paragrafo4 h2{
+    color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    text-align: center;
+}
+
+div.testo4 p{
+    color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 3px;
+    max-width: 700px;
+    margin: auto;
+}
+
+section.fine{
+    color: midnightblue;
+    position-area: center;
+    margin: 64px auto;
+    display: flex;
+}
+
+footer nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+footer nav a{
+    text-decoration: none;
+    color: midnightblue;
+    gap: 20px;
+}
+
+footer nav a:hover{
+    color: fuchsia;
+}
+
+div.footer{
+   position: center;
+   margin: 64px;
+}
+
+div.footer2{
+    position: center;
+    margin: 64px;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin: 64px auto;
+    background-color: white;
+}
